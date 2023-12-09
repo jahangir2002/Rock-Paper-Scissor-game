@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Dela+Gothic+One&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+
+        <div class="score">
+            <div class="user">
+                <h2>My Score</h2>
+                <h2 id="myScore">0</h2>
+            </div>
+            <div class="computer">
+                <h2>Computer Score</h2>
+                <h2 id="comp">0</h2>
+            </div>
+        </div>
+        <div class="show">
+            <div class="userShow"></div>
+            <h2>User</h2>
+            <img id="userImg" src="" alt="">
+        </div>
+        <div class="show">
+            <div class="compShow"></div>
+            <h2>Computer</h2>
+            <img id="compImg" src="" alt="">
+        </div>
+        <div class="rs">
+            <h2>Result : 
+                <div id="result"></div>
+            </h2>
+        </div>
+        <div class="img">
+            <img onclick="myFunc1()" src="img/rock.png" alt="">
+            <img onclick="myFunc2()" src="img/hand-paper.png" alt="">
+            <img onclick="myFunc3()" src="img/scissor.png" alt="">
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

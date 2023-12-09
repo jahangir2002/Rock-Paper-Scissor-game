@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html , body {
+    background-color: rgb(45, 6, 75);
+    color: #fff;
+}
+
+.img img {
+    background-color: #fff;
+    width: 10vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    margin:20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    
+}
+
+.score .computer {
+    margin-left: 80px;
+}
+
+.rs {
+    display: flex;
+    justify-content: center;
+}
+
+.show {
+    margin: 30px;
+}
+
+#userImg {
+    background-color: #fff;
+    width: 10vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#compImg {
+    background-color: #fff;
+    width: 10vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
